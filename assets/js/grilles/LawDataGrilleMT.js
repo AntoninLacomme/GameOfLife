@@ -3,7 +3,7 @@ export default class LawDataGrilleMT {
         
         this.listWorlds = [];
 
-        this.workerCalcul = new Worker ("/assets/js/grilles/workers/WorkerLawDataGrilleMT.js");
+        this.workerCalcul = new Worker ("./assets/js/grilles/workers/WorkerLawDataGrilleMT.js");
         this.workerCalcul.onmessage = (ev) => {
             this.listWorlds.push (ev.data.grille);
         }

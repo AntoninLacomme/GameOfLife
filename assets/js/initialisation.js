@@ -20,7 +20,7 @@ window.onload = () => {
 
     // game.setStructure (Structures.createCarrelageCube (30, 30, 30, 0, 9))
 
-    game.setStructure (Structures.createLine (0, 100, 500))
+    // game.setStructure (Structures.createLine (0, 100, 500))
 
     // game.setStructure (Structures.createPentogramme (100, 100, 0))
     // game.setStructure (Structures.createLine (120, 80, 40, 1))
@@ -30,15 +30,15 @@ window.onload = () => {
     // game.setStructure (Structures.createLine (100, 100, 10, 1))
     // game.setStructure (Structures.createPentogramme (0, 0))
 
-    // game.setStructure (Structures.createOieCanada (100, 100, 0))
+     game.setStructure (Structures.createOieCanada (100, 100, 0))
     // game.setStructure (Structures.createVaisseauSpatial (10, 30, 0, 0))
     // game.setStructure (Structures.createVaisseauSpatial (10, 50, 1, 0))
     // game.setStructure (Structures.createVaisseauSpatial (10, 70, 2, 0))
 
-    // game.setStructure (Structures.createCanonPlaneur2 (13, 101, 0))
-    // game.setStructure (Structures.createCanonPlaneur (50, 100, 1, true))
+    game.setStructure (Structures.createCanonPlaneur2 (13, 101, 0))
+    game.setStructure (Structures.createCanonPlaneur (50, 100, 1, true))
 
-    // game.setStructure (Structures.createQueen (100, 51));
+    game.setStructure (Structures.createQueen (100, 51));
     // game.setStructure (Structures.createQueen (115, 49));
     game.runWorld (50);
 
